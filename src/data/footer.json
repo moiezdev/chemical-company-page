@@ -1,0 +1,8 @@
+{
+  "blurb": "Specialty chemical distribution for paints, construction, polymers, and care industries.",
+  "quickLinks": [
+    { "label": "Home", "path": "/" },
+    { "label": "About", "path": "/about" },
+    { "label": "Contact Us", "path": "/contact" }
+  ]
+}

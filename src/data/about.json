@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "title": "About Lumina",
+    "subtitle": "A chemical partner built on reliability, reach, and technical care.",
+    "image": "/images/about-lab.jpg"
+  },
+  "intro": {
+    "headline": "Nearly three decades connecting manufacturers to markets",
+    "paragraphs": [
+      "Lumina Chemicals is a distributor and supplier of chemical products across a multitude of industries, with a history spanning the Middle East, Africa, and South Asia.",
+      "Our mission is to deliver value by moving chemicals efficiently from manufacturers to end users — with a primary focus on paints & coatings, construction, food, and personal care."
+    ],
+    "image": "/images/about-team.jpg"
+  },
+  "story": {
+    "title": "Our story",
+    "paragraphs": [
+      "The group originated in Amritsar in 1940, building a reputation in dyes and pigments before expanding internationally. In 1989, headquarters were established in the United Arab Emirates to serve a growing regional network.",
+      "Today, decades of industry exposure and an expanding portfolio allow us to offer basic and specialty chemicals through collaboration with leading manufacturers worldwide."
+    ]
+  },
+  "values": {
+    "title": "What we stand for",
+    "items": [
+      {
+        "id": "reliability",
+        "title": "Reliability",
+        "description": "Consistent supply and clear communication for every order."
+      },
+      {
+        "id": "quality",
+        "title": "Quality",
+        "description": "Products sourced from trusted manufacturers with proven standards."
+      },
+      {
+        "id": "reach",
+        "title": "Regional reach",
+        "description": "Logistics and local presence across key Middle East and South Asia markets."
+      }
+    ]
+  },
+  "partners": {
+    "title": "Trusted manufacturers",
+    "items": [
+      "Chemours",
+      "Schulke",
+      "Organik Kimya",
+      "Orgachem",
+      "Eternal",
+      "Schwegmann",
+      "Hansol",
+      "Double Bond Chemical"
+    ]
+  }
+}

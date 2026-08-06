@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Contact us",
+    "subtitle": "Reach a Lumina office near you — or send a message and we will respond promptly.",
+    "image": "/images/contact.jpg"
+  },
+  "form": {
+    "title": "Send a message",
+    "fields": [
+      { "id": "name", "label": "Full name", "type": "text", "placeholder": "Your name", "required": true },
+      { "id": "email", "label": "Email", "type": "email", "placeholder": "you@company.com", "required": true },
+      { "id": "phone", "label": "Phone", "type": "tel", "placeholder": "+971 …", "required": false },
+      { "id": "message", "label": "Message", "type": "textarea", "placeholder": "How can we help?", "required": true }
+    ],
+    "submitLabel": "Send message",
+    "successMessage": "Thank you. Your message has been noted (demo only — no backend)."
+  },
+  "locations": {
+    "title": "Our locations",
+    "items": [
+      {
+        "id": "uae",
+        "name": "Corporate Office",
+        "company": "Lumina Middle East L.L.C",
+        "address": ["Hassan Bin Haithan Street", "New Industrial Area, Ajman – U.A.E.", "P.O. Box 2409"],
+        "phone": "+971 6 743 7739",
+        "fax": "+971 6 743 7740",
+        "email": "info@luminachemicals.com"
+      },
+      {
+        "id": "pakistan",
+        "name": "Pakistan Office",
+        "company": "Lumina Emirates Chemicals",
+        "address": ["35 Circular Road", "Lahore – Pakistan"],
+        "phone": "+92 42 372 48 486",
+        "fax": "+92 42 372 48 487",
+        "email": "pk@luminachemicals.com"
+      },
+      {
+        "id": "oman",
+        "name": "Oman Office",
+        "company": "Lumina Chemicals Co. L.L.C",
+        "address": ["P.O. Box 440", "Sultanate of Oman"],
+        "phone": "+968 2450 1932",
+        "fax": "+968 2450 2399",
+        "email": "om@luminachemicals.com"
+      },
+      {
+        "id": "netherlands",
+        "name": "Netherlands Office",
+        "company": "Lumina Europe B.V",
+        "address": ["Horsterweeg 221", "5928 ND Venlo, Netherlands"],
+        "phone": "+49 228 76366934",
+        "fax": "+49 228 76366935",
+        "email": "eu@luminachemicals.com"
+      }
+    ]
+  }
+}

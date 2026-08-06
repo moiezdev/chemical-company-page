@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "brand": "Lumina Chemicals",
+    "headline": "Chemicals that color industry",
+    "subheadline": "Distributing specialty chemicals across paints, construction, polymers, and personal care.",
+    "cta": { "label": "Explore industries", "path": "/#industries" },
+    "image": "/images/hero.jpg"
+  },
+  "featured": {
+    "title": "What we supply",
+    "subtitle": "Core product families trusted by manufacturers across the region.",
+    "items": [
+      {
+        "id": "paints",
+        "title": "Paints & Coatings",
+        "description": "Resins, additives, and pigments for architectural and industrial coatings.",
+        "image": "/images/paints.jpg"
+      },
+      {
+        "id": "inks",
+        "title": "Inks & Pigments",
+        "description": "Colorants engineered for print, packaging, and specialty applications.",
+        "image": "/images/pigments.jpg"
+      },
+      {
+        "id": "construction",
+        "title": "Construction",
+        "description": "Admixtures and binders that strengthen modern building materials.",
+        "image": "/images/construction.jpg"
+      },
+      {
+        "id": "polymers",
+        "title": "Polymers",
+        "description": "Performance polymers for plastics, composites, and flexible goods.",
+        "image": "/images/polymers.jpg"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Our industries",
+    "subtitle": "One partner across the markets that move everyday products.",
+    "items": [
+      { "id": "polyurethane", "name": "Polyurethane" },
+      { "id": "paints", "name": "Paints & Coatings" },
+      { "id": "construction", "name": "Construction" },
+      { "id": "adhesives", "name": "Adhesives" },
+      { "id": "plastic", "name": "Plastic" },
+      { "id": "inks", "name": "Inks & Pigments" },
+      { "id": "household", "name": "Household" },
+      { "id": "personal", "name": "Personal Care" },
+      { "id": "lubricants", "name": "Lubricants" },
+      { "id": "food", "name": "Food Stuff" },
+      { "id": "fragrances", "name": "Fragrances" },
+      { "id": "textile", "name": "Textile" }
+    ]
+  },
+  "ctaBand": {
+    "title": "Ready to source with confidence?",
+    "text": "Talk to our team about formulations, logistics, and regional supply.",
+    "button": { "label": "Contact us", "path": "/contact" },
+    "image": "/images/warehouse.jpg"
+  }
+}
