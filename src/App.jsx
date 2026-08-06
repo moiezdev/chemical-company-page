@@ -1,34 +1,34 @@
-import { Routes, Route, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function ScrollManager() {
-  const location = useLocation()
+  const location = useLocation();
 
   useEffect(() => {
     if (location.hash) {
-      const id = location.hash.replace('#', '')
-      const el = document.getElementById(id)
+      const id = location.hash.replace('#', '');
+      const el = document.getElementById(id);
       if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        return
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
       }
     }
-    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
-  }, [location.pathname, location.hash])
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [location.pathname, location.hash]);
 
-  return null
+  return null;
 }
 
 export default function App() {
-  const location = useLocation()
+  const location = useLocation();
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col max-w-screen overflow-x-hidden">
       <Navbar />
       <ScrollManager />
       <main key={location.pathname} className="flex-1">
@@ -40,5 +40,5 @@ export default function App() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
