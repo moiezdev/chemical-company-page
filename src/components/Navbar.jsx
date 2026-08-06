@@ -1,29 +1,29 @@
-import { NavLink, Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
-import company from '../data/company.json'
-import navigation from '../data/navigation.json'
+import { NavLink, Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import company from '../data/company.json';
+import navigation from '../data/navigation.json';
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24)
-    onScroll()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   useEffect(() => {
-    document.body.style.overflow = open ? 'hidden' : ''
+    document.body.style.overflow = open ? 'hidden' : '';
     return () => {
-      document.body.style.overflow = ''
-    }
-  }, [open])
+      document.body.style.overflow = '';
+    };
+  }, [open]);
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 h-[4.5rem] transition-[background,box-shadow,backdrop-filter] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
+      className={`fixed inset-x-0 top-0 z-50 h-[4.5rem] max-w-screen transition-[background,box-shadow,backdrop-filter] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
         scrolled ? 'bg-deep/92 shadow-[0_8px_30px_rgba(0,0,0,0.18)] backdrop-blur-md' : ''
       }`}
     >
@@ -90,5 +90,5 @@ export default function Navbar() {
         </nav>
       </div>
     </header>
-  )
+  );
 }
