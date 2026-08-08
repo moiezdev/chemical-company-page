@@ -1,4 +1,4 @@
-# Lumina Chemicals
+# NexChem Chemicals
 
 Static React site for a specialty chemical distributor (inspired by rainbowchemical.com).
 

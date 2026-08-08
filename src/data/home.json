@@ -1,8 +1,8 @@
 {
   "hero": {
-    "brand": "Lumina Chemicals",
-    "headline": "Chemicals that color industry",
-    "subheadline": "Distributing specialty chemicals across paints, construction, polymers, and personal care.",
+    "brand": "NexChem Chemicals",
+    "headline": "Driving Industry with Innovative Chemistry",
+    "subheadline": "Advancing Chemistry. Enabling Progress.",
     "cta": { "label": "Explore industries", "path": "/#industries" },
     "image": "/images/hero.jpg"
   },
@@ -21,6 +21,18 @@
         "title": "Inks & Pigments",
         "description": "Colorants engineered for print, packaging, and specialty applications.",
         "image": "/images/pigments.jpg"
+      },
+      {
+        "id": "industrial chemicals",
+        "title": "Industrial Chemicals",
+        "description": "Reliable chemical solutions for a wide range of industrial applications.",
+        "image": "/images/industrial-chemicals.jpg"
+      },
+      {
+        "id": "textile",
+        "title": "Textile Chemicals",
+        "description": "Specialty chemicals for dyeing, printing, finishing, and textile processing.",
+        "image": "/images/textile.jpg"
       },
       {
         "id": "construction",
